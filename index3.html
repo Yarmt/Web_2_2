@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Форма аутентификации Ярослав </title>
+	<link rel="stylesheet" href="Styles/main3.css">
+</head>
+<body>
+	<div class="bg-img">
+		<form action="https://httpbin.org/post" method="post">
+			<h1> Форма аутентификации </h1>
+			<label for="login">Логин: </label>
+			<input type="text" id="login" name="login" required>
+
+			<label for="password">Пароль:</label>
+			<input type="password" id="password" name="password" required>
+
+			<label for="remember">Запомнить меня:</label>
+			<input type="checkbox" id="remember" name="remember">
+
+			<button type="submit">Войти</button>
+		</form>
+	</div>
+</body>
+</html>
